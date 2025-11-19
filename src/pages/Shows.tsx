@@ -4,6 +4,7 @@ export default function Shows() {
   const shows = [
     {
       title: "Más Allá de la Mente",
+      slug: "mas-alla-de-la-mente",
       description:
         "Un espectáculo de mentalismo íntimo, elegante y sorprendente. Predicciones imposibles, conexiones emocionales y experiencias que desafían la lógica.",
       image: {
@@ -14,6 +15,7 @@ export default function Shows() {
     },
     {
       title: "La Lógica del Azar",
+      slug: "logica-del-azar",
       description:
         "Magia con cartas y situaciones imposibles donde el azar se vuelve un aliado. Una experiencia divertida, inteligente y participativa.",
       image: {
@@ -24,6 +26,7 @@ export default function Shows() {
     },
     {
       title: "Magia de Cóctel",
+      slug: "magia-coctel",
       description:
         "Magia cercana para restaurantes, bodas y eventos privados. Efectos directos, rápidos y visuales mientras los invitados disfrutan de su velada.",
       image: {
@@ -34,6 +37,7 @@ export default function Shows() {
     },
     {
       title: "Magia para Empresas",
+      slug: "magia-empresas",
       description:
         "Shows personalizados para eventos corporativos. Presentaciones, dinámicas de equipo y efectos adaptados al mensaje de tu empresa.",
       image: {
@@ -57,7 +61,7 @@ export default function Shows() {
             image={show.image}
             title={show.title}
             description={show.description}
-            onClick={() => console.log("Mostrar detalles de:", show.title)}
+            to={`/shows/${show.slug}`}
           />
         ))}
       </div>

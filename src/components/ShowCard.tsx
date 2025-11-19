@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 interface ShowCardProps {
   title: string;
   description: string;
@@ -8,18 +10,19 @@ interface ShowCardProps {
         tablet?: string;
         desktop?: string;
       };
+  to?: string;
   buttonText?: string;
-  onClick?: () => void;
 }
 
 export default function ShowCard({
   title,
   description,
   image,
+  to = "/",
   buttonText = "Ver más",
-  onClick,
 }: ShowCardProps) {
-  // Normalizamos la imagen para evitar comprobaciones repetidas
+  const navigate = useNavigate();
+
   const img =
     typeof image === "string"
       ? { mobile: image, tablet: image, desktop: image }
@@ -41,17 +44,12 @@ export default function ShowCard({
       {/* Imagen lateral */}
       <div className="lg:w-1/2 w-full h-40 lg:h-auto shrink-0 overflow-hidden rounded-t-xl lg:rounded-t-none lg:rounded-l-xl">
         <picture>
-          {/* Desktop */}
           {img.desktop && (
             <source media="(min-width: 1024px)" srcSet={img.desktop} />
           )}
-
-          {/* Tablet */}
           {img.tablet && (
             <source media="(min-width: 640px)" srcSet={img.tablet} />
           )}
-
-          {/* Mobile */}
           <img
             src={img.mobile}
             alt={title}
@@ -73,10 +71,12 @@ export default function ShowCard({
         <p className="text-text-secondary mb-6">{description}</p>
 
         <button
-          onClick={onClick}
+          onClick={() => navigate(to)}
           className="
             text-gold border border-gold px-4 py-2 rounded-lg 
             transition hover:bg-gold hover:text-black
+            hover:scale-105 active:scale-95
+            shadow-lg shadow-black/30
           "
         >
           {buttonText}
