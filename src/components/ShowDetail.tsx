@@ -64,7 +64,7 @@ export const ShowDetail = ({
       </h1>
 
       {/* Subtítulo */}
-      <p className="text-center text-text-secondary italic text-xl mb-8 animate-fadeUp delay-200">
+      <p className="text-center text-text-secondary italic text-xl mb-8 animate-fadeUp delay-200 max-w-2xl mx-auto">
         {subtitle}
       </p>
 
@@ -87,11 +87,15 @@ export const ShowDetail = ({
 
       {/* Highlights */}
       <div className="mb-10">
-        <h2 className="text-2xl font-title text-gold mb-4">Lo que vivirás</h2>
-
-        <ul className="space-y-3">
+        <h2 className="text-2xl font-title text-gold mb-4 text-center">
+          Lo que vivirás
+        </h2>
+        <ul className="space-y-3 max-w-2xl mx-auto">
           {highlights.map((h, i) => (
-            <li key={i} className="flex items-start gap-3 text-text-secondary">
+            <li
+              key={i}
+              className="flex items-start gap-3 text-text-secondary text-justify"
+            >
               <span className="text-gold text-xl mt-[2px]">•</span>
               <span>{h}</span>
             </li>
@@ -100,14 +104,19 @@ export const ShowDetail = ({
       </div>
 
       {/* Descripción larga */}
-      <p
+      <div
         className="
-          text-text-secondary text-lg md:text-xl leading-relaxed whitespace-pre-line
-          animate-fadeUp delay-200
+          text-text-secondary text-lg md:text-xl leading-relaxed
+          animate-fadeUp delay-200 text-justify max-w-3xl mx-auto
         "
+        style={{ textAlign: "justify", textJustify: "inter-word" }}
       >
-        {longDescription}
-      </p>
+        {longDescription.split(/\n\s*\n/).map((p, i) => (
+          <p key={i} className="mb-4 last:mb-0">
+            {p.replace(/\n/g, " ")}
+          </p>
+        ))}
+      </div>
 
       {/* CTA */}
       <div className="flex justify-center mt-12">
@@ -141,8 +150,8 @@ export const ShowDetail = ({
 
 /* Componente para cada detalle */
 const DetailItem = ({ label, value }: { label: string; value: string }) => (
-  <div>
+  <div className="flex flex-col gap-1">
     <p className="text-gold font-title text-lg">{label}</p>
-    <p className="text-text-secondary">{value}</p>
+    <p className="text-text-secondary text-justify">{value}</p>
   </div>
 );
