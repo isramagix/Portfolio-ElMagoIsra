@@ -42,6 +42,8 @@ export const ShowDetail = ({
           <img
             src={banner}
             alt={title}
+            loading="lazy"
+            role="img"
             className="
               w-full max-w-lg 
               rounded-xl border border-gold shadow-lg shadow-black/40
@@ -69,7 +71,7 @@ export const ShowDetail = ({
       </p>
 
       {/* Separador */}
-      <div className="w-28 h-[2px] bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-10" />
+      <div className="w-28 h-0.5 bg-linear-to-r from-transparent via-gold to-transparent mx-auto mb-10" />
 
       {/* Detalles clave */}
       <div
@@ -96,7 +98,7 @@ export const ShowDetail = ({
               key={i}
               className="flex items-start gap-3 text-text-secondary text-justify"
             >
-              <span className="text-gold text-xl mt-[2px]">•</span>
+              <span className="text-gold text-xl mt-0.5">•</span>
               <span>{h}</span>
             </li>
           ))}

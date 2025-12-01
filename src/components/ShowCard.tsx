@@ -53,6 +53,8 @@ export default function ShowCard({
           <img
             src={img.mobile}
             alt={title}
+            loading="lazy"
+            role="img"
             className="
               w-full h-full 
               object-contain md:object-cover object-center 

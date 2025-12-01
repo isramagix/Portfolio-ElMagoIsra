@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import Shows from "../pages/Shows";
 import { ShowsDetailPage } from "../pages/ShowsDetailPage";
 import Contact from "../pages/Contact";
+import NotFound from "../pages/NotFound";
 
 export default function AppRouter() {
   return (
@@ -11,6 +12,7 @@ export default function AppRouter() {
       <Route path="/shows" element={<Shows />} />
       <Route path="/shows/:slug" element={<ShowsDetailPage />} />
       <Route path="/contacto" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
