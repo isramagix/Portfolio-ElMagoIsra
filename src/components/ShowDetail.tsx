@@ -121,7 +121,10 @@ export const ShowDetail = ({
       {/* CTA */}
       <div className="flex justify-center mt-12">
         <button
-          onClick={() => navigate("/contacto")}
+          onClick={() => {
+            const slug = window.location.pathname.split("/").pop();
+            navigate(`/contacto?evento=${slug}`);
+          }}
           className="
             text-gold border border-gold px-8 py-3 rounded-lg 
             hover:bg-gold hover:text-black transition-all duration-300
