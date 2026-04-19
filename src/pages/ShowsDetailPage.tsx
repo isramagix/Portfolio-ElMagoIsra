@@ -24,164 +24,143 @@ interface Show {
 const showsData: Record<string, Show> = {
   "mas-alla-de-la-mente": {
     title: "Más Allá de la Mente",
-    subtitle: "Un viaje profundo a la intuición humana.",
+    subtitle: "Exploración profunda del potencial mental humano.",
     banner: "/MADLMhor.png",
     details: {
       duration: "60 - 70 minutos",
       audience: "Adultos mayores de 16 años",
-      style: "Mentalismo elegante y emocional",
-      participation: "Alta",
+      style: "Mentalismo psicológico y emocional",
+      participation: "Alta - Completamente participativo",
     },
     highlights: [
-      "Conexiones imposibles e intuitivas",
-      "Revelaciones profundamente personales",
-      "Participación activa del público",
-      "Momentos únicos e irrepetibles",
+      "Influencia mental y lectura psicológica",
+      "Predicciones basadas en análisis cognitivo",
+      "Participación auténtica del público",
+      "Revelaciones profundas y personales",
     ],
     longDescription: `
-Un viaje que combina intuición, emoción y misterio desde el primer instante.
-Un espectáculo donde la mente humana se convierte en el escenario principal y cada pensamiento puede transformarse en un milagro.
+Un viaje que explora los límites invisibles del potencial mental humano.
+Un espectáculo donde la psicología, la percepción y la intuición se entrelazan para crear experiencias que desafían lo que creemos posible.
 
-A través de conexiones imposibles, coincidencias que desafían las
-probabilidades y revelaciones profundamente personales, el público descubre 
-que la frontera entre lo real y lo imposible es más fina de lo que imaginaba.
+A través de técnicas de lectura profunda de lenguaje corporal, patrones de pensamiento y dinámicas psicológicas, los espectadores experimentan predicciones exactas y conexiones que parecen imposibles.
 
-Los espectadores participan activamente, influyendo en decisiones,
-creando resultados únicos e irrepetibles y siendo protagonistas de
-experiencias que jamás habrían imaginado vivir.
+Los participantes activos son protagonistas, no meros observadores.
+Sus decisiones, sus pensamientos, sus recuerdos se convierten en la materia del espectáculo.
 
-Nada está preparado. Nada está escrito.  
-Cada función es distinta, construida con las emociones, recuerdos y elecciones
-de quienes la presencian.
+Cada función es única porque cada público es distinto.
+No hay guiones: hay comprensión profunda y adaptación constante.
 
-Un espectáculo íntimo, elegante y profundamente humano que combina
-psicología, percepción, intuición y arte dramático para crear una experiencia
-que trasciende lo puramente mágico.
+Un espectáculo sofisticado que combina investigación psicológica contemporánea con técnicas clásicas de mentalismo, creando una experiencia que permanece en la memoria y despierta reflexiones duraderas.
 
-Un viaje emocional, sorprendente…  
-y que permanecerá en la memoria mucho después de terminar.
+Una invitación a cuestionar los límites de lo que la mente puede hacer…
+cuando se le permite explorar sin restricciones.
 `,
   },
 
-  "logica-del-azar": {
-    title: "La Lógica del Azar",
-    subtitle: "Donde el caos encuentra su destino.",
+  "psicologia-decision": {
+    title: "Psicología de la Decisión",
+    subtitle: "Cuando crees elegir libremente, pero la mente ya ha decidido.",
     banner: "/LLDAhor.png",
     details: {
       duration: "60 - 70 minutos",
-      audience: "Adultos mayores de 12 años",
-      style: "Cartomagia moderna",
-      participation: "Media-Alta",
+      audience: "Adultos mayores de 14 años",
+      style: "Mentalismo cognitivo",
+      participation: "Media-Alta - Decisiones libres analizadas",
     },
     highlights: [
-      "Decisiones aparentemente aleatorias",
-      "Coincidencias que desafían la lógica",
-      "Humor y tensión en equilibrio",
-      "Finales totalmente inesperados",
+      "Análisis de patrones de decisión",
+      "Predicción de elecciones 'libres'",
+      "Paradojas del pensamiento",
+      "Revelaciones sorprendentes",
     ],
     longDescription: `
-Un espectáculo donde lo imposible se esconde detrás de decisiones que parecen 
-completamente aleatorias. Cartas elegidas libremente, números improvisados, 
-elecciones que nadie podría prever… y, sin embargo, el destino parece tener 
-un plan oculto.
+¿Realmente elegimos libremente?  
+¿O nuestras decisiones siguen patrones predecibles que podemos anticipar?
 
-Situaciones caóticas que terminan encajando con precisión quirúrgica.
-Coincidencias tan perfectas que desafían cualquier idea de probabilidad.
+Este espectáculo explora fascinantemente cómo funciona realmente la toma de decisiones humana.
+A través de elecciones que parecen completamente aleatorias, números improvisados y decisiones espontáneas, se revela un patrón persistente: la mente humana es más predecible de lo que imaginamos.
 
-El espectador cree decidirlo todo.  
-El azar domina la escena.  
-Pero, cuando todo parece imposible, la lógica aparece de forma inevitable.
+Lo que parece caótico contiene estructura.
+Lo que parece libre sigue caminos establecidos.
+Lo que parece azaroso se puede anticipar.
 
-Un show inteligente, divertido y participativo donde el humor, la tensión y 
-las revelaciones finales se entrelazan para crear momentos únicos e 
-irrepetibles.
+Un espectáculo inteligente, sorprendente e interactivo que combina psicología cognitiva con momentos de asombro genuino, donde cada revelación genera reflexión profunda.
 
-Perfecto para quienes disfrutan de la cartomagia moderna, las paradojas 
-matemáticas y las experiencias donde el público participa activamente en 
-cada giro inesperado.
+Perfecto para auditorios que disfrutan de la exploración intelectual, la psicología y aquellos que desean comprender mejor cómo funciona su propia mente.
 
-Una celebración del azar…  
-y de lo sorprendente que puede ser cuando decide ponerse de tu lado.
+Una celebración del pensamiento… y de sus patrones fascinantes.
 `,
   },
 
-  "magia-coctel": {
-    title: "Magia de Cóctel",
-    subtitle: "Elegancia y sorpresa a pocos centímetros.",
+  "mentalismo-cercano": {
+    title: "Mentalismo de Cerca",
+    subtitle: "Influencia mental en cada interacción.",
     banner: "/Coctailhor.png",
     details: {
       duration: "1–2 horas (formato libre)",
       audience: "Eventos sociales y celebraciones",
-      style: "Magia de cerca",
-      participation: "Muy alta",
+      style: "Mentalismo interactivo",
+      participation: "Muy alta - Uno a uno",
     },
     highlights: [
-      "Efectos visuales e imposibles",
-      "Magia personalizada para cada grupo",
-      "Ritmo dinámico y adaptable",
-      "Ideal para bodas y eventos privados",
+      "Lectura inmediata de personalidades",
+      "Influencia psicológica sutil",
+      "Mentalismo personalizado por grupo",
+      "Perfecto para eventos informales",
     ],
     longDescription: `
-Magia cercana, directa y elegante que sucede a escasos centímetros de los 
-ojos del público.  
-Un formato dinámico, ideal para cócteles, bodas, eventos privados y 
-celebraciones donde los invitados se mueven y socializan.
+Mentalismo cercano, directo e inmediato que sucede a pocos centímetros de los ojos del público.
+Un formato flexible e íntimo, ideal para cócteles, reuniones, eventos privados y celebraciones donde las personas se mueven y interactúan naturalmente.
 
-Cada pequeño grupo se convierte en el centro de un milagro:  
-cartas que cambian en sus propias manos, objetos que se transforman,
-predicciones imposibles, efectos visuales y rápidos que dejan una huella 
-duradera.
+A través de la lectura aguda del lenguaje corporal, la microexpresión y patrones psicológicos, cada pequeño grupo vive momentos de mentalismo personalizado.
 
-Magia personalizada, flexible y diseñada para adaptarse al ritmo del evento,
-permitiendo que cada invitado viva su propio momento mágico sin necesidad
-de escenarios ni amplificación.
+Predicciones imposibles basadas en análisis real.
+Inspiración de pensamientos que parecen espontáneos.
+Revelaciones personales que generan asombro genuino.
 
-Una experiencia íntima, sofisticada y memorable que aporta elegancia,
-diversión y sorpresa sin interrumpir la esencia del evento.  
-Ideal para romper el hielo, generar conversación y crear recuerdos únicos.
+Mentalismo adaptado, íntimo y sofisticado que aporta un elemento de misterio y entretenimiento sin necesidad de amplificación ni dispositivos.
 
-La magia perfecta para convertir cualquier velada en algo especial.
+Create un ambiente de intriga, genera conversación y deja a cada participante con una anécdota única que llevará a casa.
+
+El mentalismo perfecto para eventos donde la elegancia y la sutileza son valoradas.
 `,
   },
 
-  "magia-empresas": {
-    title: "Magia para Empresas",
-    subtitle: "Comunicar, inspirar y sorprender con propósito.",
+  "mentalismo-corporativo": {
+    title: "Mentalismo Corporativo",
+    subtitle: "Inspiración, reflexión e impacto estratégico.",
     banner: "/MagEmpresashor.png",
     details: {
       duration: "20–60 minutos",
-      audience: "Eventos corporativos",
-      style: "Magia profesional y comunicativa",
-      participation: "Alta",
+      audience: "Eventos corporativos y conferencias",
+      style: "Mentalismo con propósito estratégico",
+      participation: "Alta - Participación planificada",
     },
     highlights: [
-      "Magia adaptada al mensaje de tu empresa",
-      "Dinamismo y comunicación efectiva",
-      "Ideal para presentaciones y cenas",
-      "Show profesional y memorable",
+      "Mentalismo adaptado al mensaje corporativo",
+      "Dinámicas que refuerzan objetivos empresariales",
+      "Memorable e impactante",
+      "Profesional y estratégico",
     ],
     longDescription: `
-Una propuesta diseñada especialmente para eventos corporativos, conferencias 
-y presentaciones donde la magia se convierte en una herramienta poderosa de 
-comunicación.
+Mentalismo diseñado específicamente para eventos corporativos, conferencias, cenas de empresa y presentaciones donde la capacidad mental se convierte en herramienta de comunicación estratégica.
 
-No es solo entretenimiento: es un mensaje.  
-Un espectáculo que combina efectos visuales, dinámicas participativas y 
-momentos de asombro con las ideas clave que la empresa desea transmitir.
+No es entretenimiento aislado: es un mensaje vivo.
+Un espectáculo que integra técnicas de influencia mental, análisis psicológico y momentos de asombro genuino con los objetivos clave que la organización desea transmitir.
 
-Innovación, trabajo en equipo, liderazgo, creatividad o misión corporativa:
-cada concepto puede integrarse de forma elegante y sorprendente dentro del 
-show, reforzando los valores de la marca a través de experiencias 
-memorables.
+Liderazgo inspirador.
+Creatividad sin límites.
+Toma de decisiones estratégica.
+Unidad de equipo.
+Potencial humano.
 
-Ideal para cenas de empresa, lanzamientos de producto, ferias, congresos,
-reuniones de equipo y eventos donde se busca un impacto más profundo y 
-profesional.
+Cada concepto se puede explorar a través de dinámicas mentalistas que refuerzan el aprendizaje y generan reflexión profunda.
 
-Una fusión de magia, storytelling y comunicación que transforma cualquier 
-mensaje en algo vivo, inspirador y difícil de olvidar.
+Ideal para lanzamientos de estrategia, reuniones de leadership, congresos, ferias empresariales y eventos donde se busca impacto duradero más allá del entretenimiento tradicional.
 
-Perfecto para empresas que quieren sorprender sin dejar de transmitir.
+Una fusión de mentalismo, psicología y comunicación que transforma mensajes corporativos en experiencias memorables que los equipos llevarán consigo.
+
+Perfecto para empresas que buscan sorprender, inspiran y comunicar con autenticidad.
 `,
   },
 };

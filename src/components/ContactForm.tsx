@@ -15,7 +15,7 @@ const validationSchema = Yup.object({
   phone: Yup.string()
     .matches(
       /^[+]?[(]?[0-9]{1,4}[)]?[-\s.]?[(]?[0-9]{1,4}[)]?[-\s.]?[0-9]{1,9}$/,
-      "Teléfono inválido"
+      "Teléfono inválido",
     )
     .nullable(),
 
@@ -39,7 +39,7 @@ interface ContactFormProps {
       eventType: string;
       message: string;
     },
-    actions: { resetForm: () => void }
+    actions: { resetForm: () => void },
   ) => Promise<void>;
   initialEventType?: string;
 }
@@ -94,13 +94,21 @@ export const ContactForm = ({
               placeholder="+34 612 345 678"
             />
 
-            {/* Espectáculo */}
-            <FormField label="Espectáculo" name="showType" as="select">
-              <option value="">Selecciona un espectáculo</option>
+            {/* Servicio de mentalismo */}
+            <FormField
+              label="Servicio de mentalismo"
+              name="showType"
+              as="select"
+            >
+              <option value="">Selecciona un servicio</option>
               <option value="mas-alla-de-la-mente">Más Allá de la Mente</option>
-              <option value="logica-del-azar">La Lógica del Azar</option>
-              <option value="magia-coctel">Magia de Cóctel</option>
-              <option value="magia-empresas">Magia para Empresas</option>
+              <option value="psicologia-decision">
+                Psicología de la Decisión
+              </option>
+              <option value="mentalismo-cercano">Mentalismo de Cerca</option>
+              <option value="mentalismo-corporativo">
+                Mentalismo Corporativo
+              </option>
             </FormField>
 
             {/* Tipo de evento */}
@@ -133,10 +141,10 @@ export const ContactForm = ({
                   status === "sending" || isSubmitting
                     ? "bg-gray-600 cursor-not-allowed"
                     : status === "success"
-                    ? "bg-green-600 hover:bg-green-700"
-                    : status === "error"
-                    ? "bg-red-600 hover:bg-red-700"
-                    : "bg-gold text-black hover:bg-gold-light"
+                      ? "bg-green-600 hover:bg-green-700"
+                      : status === "error"
+                        ? "bg-red-600 hover:bg-red-700"
+                        : "bg-gold text-black hover:bg-gold-light"
                 }
               `}
             >

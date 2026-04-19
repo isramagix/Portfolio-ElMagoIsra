@@ -1,11 +1,11 @@
 {
-  "name": "El Mago Isra",
-  "short_name": "Mago Isra",
+  "name": "Isra - Mentalista Profesional",
+  "short_name": "Isra Mentalista",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#111827",
   "theme_color": "#FFD700",
-  "description": "Portfolio profesional de El Mago Isra. Espectáculos de magia para eventos y celebraciones.",
+  "description": "Mentalista profesional especializado en mentalismo moderno. Actuaciones para eventos corporativos, privados y celebraciones.",
   "icons": [
     {
       "src": "/favico.png",

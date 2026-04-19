@@ -20,7 +20,7 @@ export default function Contact() {
       eventType: string;
       message: string;
     },
-    { resetForm }: { resetForm: () => void }
+    { resetForm }: { resetForm: () => void },
   ) => {
     setStatus("sending");
 
@@ -31,7 +31,7 @@ export default function Contact() {
 
       if (!serviceId || !templateId || !publicKey) {
         throw new Error(
-          "Faltan las credenciales de EmailJS. Configura el archivo .env"
+          "Faltan las credenciales de EmailJS. Configura el archivo .env",
         );
       }
 
@@ -47,7 +47,7 @@ export default function Contact() {
           message: values.message,
           time: new Date().toLocaleString(),
         },
-        publicKey
+        publicKey,
       );
 
       setStatus("success");
@@ -67,8 +67,8 @@ export default function Contact() {
             Contacto
           </h1>
           <p className="text-text-secondary text-lg md:text-xl max-w-2xl mx-auto">
-            ¿Tienes un evento en mente? Cuéntame sobre tu proyecto y hagamos que
-            suceda algo único.
+            ¿Tienes un evento o proyecto en mente? Cuéntame sobre tu evento y
+            cómo puedo crear una experiencia de mentalismo única.
           </p>
         </div>
 

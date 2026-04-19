@@ -7,7 +7,7 @@ export default function NotFound() {
       <h2 className="text-2xl mb-6">Página no encontrada</h2>
       <p className="mb-8 text-center max-w-md">
         La página que buscas no existe o ha sido movida. Vuelve al inicio para
-        seguir disfrutando de la magia.
+        conocer el mentalismo de Isra.
       </p>
       <Link
         to="/"
