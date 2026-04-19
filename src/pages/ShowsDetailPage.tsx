@@ -57,110 +57,40 @@ cuando se le permite explorar sin restricciones.
 `,
   },
 
-  "psicologia-decision": {
-    title: "Psicología de la Decisión",
-    subtitle: "Cuando crees elegir libremente, pero la mente ya ha decidido.",
-    banner: "/LLDAhor.png",
+  mentalissimo: {
+    title: "Mentalissimo",
+    subtitle: "Un viaje a través del azar, el destino y lo imposible.",
+    banner: "/mentalissimo-placeholder.png",
     details: {
-      duration: "60 - 70 minutos",
-      audience: "Adultos mayores de 14 años",
-      style: "Mentalismo cognitivo",
-      participation: "Media-Alta - Decisiones libres analizadas",
+      duration: "60 minutos",
+      audience: "Todos los públicos",
+      style: "Mentalismo experiencial",
+      participation: "Alta - Participación continua",
     },
     highlights: [
-      "Análisis de patrones de decisión",
-      "Predicción de elecciones 'libres'",
-      "Paradojas del pensamiento",
-      "Revelaciones sorprendentes",
+      "Predicciones exactas y adivinaciones",
+      "Teletransportaciones de objetos",
+      "Exploración del azar y el destino",
+      "Experiencia inmersiva y sorprendente",
     ],
     longDescription: `
-¿Realmente elegimos libremente?  
-¿O nuestras decisiones siguen patrones predecibles que podemos anticipar?
+Una experiencia de mentalismo para todos los públicos donde cuestionamos el azar, el destino y los límites de la realidad.
 
-Este espectáculo explora fascinantemente cómo funciona realmente la toma de decisiones humana.
-A través de elecciones que parecen completamente aleatorias, números improvisados y decisiones espontáneas, se revela un patrón persistente: la mente humana es más predecible de lo que imaginamos.
+Durante una hora, nos embarcaremos en un viaje donde cada momento desafía lo que creemos posible.
+Predicciones que se cumplen de formas imposibles.
+Adivinaciones que revelan secretos guardados.
+Teletransportaciones de objetos que desafían las leyes físicas.
 
-Lo que parece caótico contiene estructura.
-Lo que parece libre sigue caminos establecidos.
-Lo que parece azaroso se puede anticipar.
+¿Es todo aleatorio? ¿O existe un patrón invisible que podemos manipular?
+¿Es el destino fijo o podemos cambiar el curso de los eventos?
 
-Un espectáculo inteligente, sorprendente e interactivo que combina psicología cognitiva con momentos de asombro genuino, donde cada revelación genera reflexión profunda.
+Mentalissimo explora estas preguntas a través de momentos de asombro genuino, interactividad continua y revelaciones que permanecen en la mente mucho después del espectáculo.
 
-Perfecto para auditorios que disfrutan de la exploración intelectual, la psicología y aquellos que desean comprender mejor cómo funciona su propia mente.
+Un show emocionante, sorprendente e inspirador que desafía la percepción de la realidad y nos invita a cuestionar todo aquello que damos por sentado.
 
-Una celebración del pensamiento… y de sus patrones fascinantes.
-`,
-  },
+Perfecto para quienes disfrutan del misterio, la magia y desean vivir una experiencia que realmente los sorprenda.
 
-  "mentalismo-cercano": {
-    title: "Mentalismo de Cerca",
-    subtitle: "Influencia mental en cada interacción.",
-    banner: "/Coctailhor.png",
-    details: {
-      duration: "1–2 horas (formato libre)",
-      audience: "Eventos sociales y celebraciones",
-      style: "Mentalismo interactivo",
-      participation: "Muy alta - Uno a uno",
-    },
-    highlights: [
-      "Lectura inmediata de personalidades",
-      "Influencia psicológica sutil",
-      "Mentalismo personalizado por grupo",
-      "Perfecto para eventos informales",
-    ],
-    longDescription: `
-Mentalismo cercano, directo e inmediato que sucede a pocos centímetros de los ojos del público.
-Un formato flexible e íntimo, ideal para cócteles, reuniones, eventos privados y celebraciones donde las personas se mueven y interactúan naturalmente.
-
-A través de la lectura aguda del lenguaje corporal, la microexpresión y patrones psicológicos, cada pequeño grupo vive momentos de mentalismo personalizado.
-
-Predicciones imposibles basadas en análisis real.
-Inspiración de pensamientos que parecen espontáneos.
-Revelaciones personales que generan asombro genuino.
-
-Mentalismo adaptado, íntimo y sofisticado que aporta un elemento de misterio y entretenimiento sin necesidad de amplificación ni dispositivos.
-
-Create un ambiente de intriga, genera conversación y deja a cada participante con una anécdota única que llevará a casa.
-
-El mentalismo perfecto para eventos donde la elegancia y la sutileza son valoradas.
-`,
-  },
-
-  "mentalismo-corporativo": {
-    title: "Mentalismo Corporativo",
-    subtitle: "Inspiración, reflexión e impacto estratégico.",
-    banner: "/MagEmpresashor.png",
-    details: {
-      duration: "20–60 minutos",
-      audience: "Eventos corporativos y conferencias",
-      style: "Mentalismo con propósito estratégico",
-      participation: "Alta - Participación planificada",
-    },
-    highlights: [
-      "Mentalismo adaptado al mensaje corporativo",
-      "Dinámicas que refuerzan objetivos empresariales",
-      "Memorable e impactante",
-      "Profesional y estratégico",
-    ],
-    longDescription: `
-Mentalismo diseñado específicamente para eventos corporativos, conferencias, cenas de empresa y presentaciones donde la capacidad mental se convierte en herramienta de comunicación estratégica.
-
-No es entretenimiento aislado: es un mensaje vivo.
-Un espectáculo que integra técnicas de influencia mental, análisis psicológico y momentos de asombro genuino con los objetivos clave que la organización desea transmitir.
-
-Liderazgo inspirador.
-Creatividad sin límites.
-Toma de decisiones estratégica.
-Unidad de equipo.
-Potencial humano.
-
-Cada concepto se puede explorar a través de dinámicas mentalistas que refuerzan el aprendizaje y generan reflexión profunda.
-
-Ideal para lanzamientos de estrategia, reuniones de leadership, congresos, ferias empresariales y eventos donde se busca impacto duradero más allá del entretenimiento tradicional.
-
-Una fusión de mentalismo, psicología y comunicación que transforma mensajes corporativos en experiencias memorables que los equipos llevarán consigo.
-
-Perfecto para empresas que buscan sorprender, inspiran y comunicar con autenticidad.
+Bienvenido a Mentalissimo: donde todo es posible.
 `,
   },
 };

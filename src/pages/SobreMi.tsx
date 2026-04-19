@@ -42,11 +42,11 @@ export default function SobreMi() {
             SOBRE MÍ
           </h1>
           <div className="flex justify-center items-center gap-8 mt-8">
-            <div className="h-0.5 w-20 bg-gradient-to-r from-transparent to-gold"></div>
+            <div className="h-0.5 w-20 bg-linear-to-r from-transparent to-gold"></div>
             <p className="text-gold-light text-xl font-light">
               Isra, Mentalista Profesional
             </p>
-            <div className="h-0.5 w-20 bg-gradient-to-l from-transparent to-gold"></div>
+            <div className="h-0.5 w-20 bg-linear-to-l from-transparent to-gold"></div>
           </div>
         </div>
 

@@ -22,36 +22,14 @@ export default function Shows() {
       },
     },
     {
-      title: "Psicología de la Decisión",
-      slug: "psicologia-decision",
+      title: "Mentalissimo",
+      slug: "mentalissimo",
       description:
-        "¿Realmente elegimos libremente? Un mentalismo cognitivo que explora patrones de decisión y revela cómo nuestras elecciones son más predecibles de lo que imaginamos.",
+        "Una experiencia de mentalismo para todos los públicos donde cuestionamos el azar o el destino como forma de viaje. Una hora de show llena de predicciones, adivinaciones y teletransportaciones de objetos que desafían la realidad.",
       image: {
-        desktop: "/LLDA.png",
-        tablet: "/LLDAhor.png",
-        mobile: "/LLDAhor.png",
-      },
-    },
-    {
-      title: "Mentalismo de Cerca",
-      slug: "mentalismo-cercano",
-      description:
-        "Mentalismo íntimo y personalizado para eventos corporativos, sociales y celebraciones. Lectura de personalidades, influencia sutil y momentos únicos a pocos centímetros.",
-      image: {
-        desktop: "/Coctail.png",
-        tablet: "/Coctailhor.png",
-        mobile: "/Coctailhor.png",
-      },
-    },
-    {
-      title: "Mentalismo Corporativo",
-      slug: "mentalismo-corporativo",
-      description:
-        "Mentalismo estratégico adaptado a eventos empresariales. Un espectáculo profesional que comunica valores, inspira reflexión y deja impacto duradero en tu audiencia.",
-      image: {
-        desktop: "/MagEmpresas.png",
-        tablet: "/MagEmpresashor.png",
-        mobile: "/MagEmpresashor.png",
+        desktop: "/mentalissimo-placeholder.png",
+        tablet: "/mentalissimo-placeholder.png",
+        mobile: "/mentalissimo-placeholder.png",
       },
     },
   ];

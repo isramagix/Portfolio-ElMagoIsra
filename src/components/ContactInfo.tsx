@@ -26,7 +26,7 @@ export const ContactInfo = () => {
           <ContactItem icon="🌐" label="Redes sociales">
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/isra.mentalista"
+                href="https://instagram.com/elmago.isra"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-secondary hover:text-gold transition"
